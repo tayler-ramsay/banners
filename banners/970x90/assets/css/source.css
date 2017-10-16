@@ -2,6 +2,7 @@ $width: 970px;
 $height: 90px;
 
 *, *:before, *:after {
+  margin: 0;
     box-sizing: border-box;
 }
 
@@ -23,7 +24,7 @@ a#myAdLink {
 
 #myAd .myAd_Img{
   position: absolute;
-  background: url(../img/keyframes/970x90_sprite@1x.png) no-repeat 0px 0px;
+  background: url(../img/970x90_sprite@1x.png) no-repeat 0px 0px;
 }
 
 #myAd #myAd_bg{
@@ -37,7 +38,7 @@ a#myAdLink {
   width: inherit;
   height: inherit;
   background-position: 100px -60px;
-  background-size: 690px;
+  background-size: 550px;
   bottom: 0px;
   left:0px;
 }
@@ -47,7 +48,7 @@ a#myAdLink {
   height: 90px;
   background-position: -490px -270px;
   top:0;
-  left:110px;
+  left:90px;
 }
 
 #myAd #myAd_CTA_2{
@@ -66,4 +67,17 @@ a#myAdLink {
   background: ;
   top:0;
   left:806px
+}
+
+
+#myAd #myAd_legal{
+  width: 250px;
+  font-family: sans-serif;
+  background: transparent;
+  font-size: 9px;
+  color: #fff;
+  margin-left: 557px;
+  top: 35px;
+  line-height: 13px;
+
 }

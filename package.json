@@ -1,13 +1,13 @@
 {
-  "name": "client-name",
-  "title": "{{Project Name}}",
+  "name": "17-SEA-0156",
+  "title": "Spiked Banners",
   "description": "",
-  "author": "Brothers & Company",
+  "author": "Pavone",
   "version": "0.1.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "gitlab-repository"
+    "url": "https://github.com/tayler-ramsay/banners.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

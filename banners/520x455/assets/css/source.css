@@ -1,0 +1,109 @@
+$width: 520px;
+$height: 455px;
+
+*, *:before, *:after {
+  margin: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles
+--------------------------------------------------------------------------- */
+a#myAdLink {
+  display: block;
+  background-color: transparent;
+  width:$width;
+  height: $height;
+}
+
+#myAd{
+  position: relative;
+  overflow: hidden;
+  width:$width;
+  height: $height;
+}
+
+#myAd .myAd_Img{
+  position: absolute;
+  background: url(../img/520x455.png) no-repeat 0px 0px;
+}
+
+#myAd #myAd_bg{
+  z-index: -1;
+  width: inherit;
+  height: 310px;
+  top:0;
+  left: 0;
+}
+
+#myAd #myAd_JMH{
+  width: 126px;
+  height: 250px;
+  background-size: 200%;
+  background-position: 0px -415px;
+  top: 55px;
+  right:126px;
+}
+
+#myAd #myAd_SD{
+  width: 126px;
+  height: 235px;
+  background-position: -380px -315px;
+  top: 70px;
+  right:20px;
+}
+
+#myAd #myAd_logo{
+  width: 220px;
+  height: 300px;
+  background-position: 0px -350px;
+  top:0px;
+  left:0px;
+}
+
+#myAd #myAd_CTA_1{
+  background-color: #000;
+  z-index: 3;
+  width: 550px;
+  height: 90px;
+  background-position: -12px -655px;
+  top:355px;
+  left:11px
+}
+
+#myAd #myAd_CTA_2{
+  z-index: 2;
+  width: 553px;
+  height: 88px;
+  background-position: -10px -774px;
+  top:359px;
+  left:11px
+}
+
+
+#myAd #myAd_legal{
+  z-index: 2;
+  text-align: center;
+  left:0;
+  right: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 340px;
+  font-family: sans-serif;
+  background: transparent;
+  font-size: 12px;
+  color: #fff;
+  top: 315px;
+  line-height: 16px;
+
+}
+.black-box{
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  z-index: 1;
+  padding: 20px;
+  height: 152px;
+  width: 520px;
+  background-color: black;
+}
